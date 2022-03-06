@@ -6,8 +6,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class BasicCrudServiceControllerApplication {
 
+	
 	public static void main(String[] args) {
 		SpringApplication.run(BasicCrudServiceControllerApplication.class, args);
+
+		for (int i = 0; i < 10; i++) {
+			
+		}
+		
 	}
 
 }
