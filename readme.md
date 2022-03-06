@@ -38,6 +38,7 @@ for this example imagine we gave an Entity Entity1 and Entity2
 	 //basic constructor , getter , setter
 ---
 and we have created both of repository for each entity the service For Entity2 for example would look like this:
+	
 	package tn.AymenBoughanmi.RestAPI.Entity2;
 
 	import org.springframework.stereotype.Service;
@@ -58,6 +59,7 @@ and we have created both of repository for each entity the service For Entity2 f
 	}
 ---
 and for Entity1 :
+	
 	package tn.AymenBoughanmi.RestAPI.Entity1;
 
 	import org.springframework.stereotype.Service;
@@ -91,6 +93,7 @@ notice we haven't used any Update or delete methods for each one that's because 
 ---
 
 same thing for the Controllers logic so the Controller for Entity1 would be :
+	
 	package tn.AymenBoughanmi.RestAPI.Entity1;
 
 	import org.springframework.web.bind.annotation.RequestMapping;
