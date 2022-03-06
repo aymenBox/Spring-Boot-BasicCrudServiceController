@@ -12,7 +12,6 @@ public class Entity2Service extends BaseCrudService<Entity2Repository, Entity2> 
 	public Entity2Service(Entity2Repository repository) {
 		super(repository);
 		this.repository=repository;
-		// TODO Auto-generated constructor stub
 	}
 
 	

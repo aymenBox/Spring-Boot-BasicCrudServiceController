@@ -23,6 +23,10 @@ public class Entity2 {
 	 Set<Entity1> entity1List;
 
 	
+	public Entity2() {
+		super();
+	}
+
 	public void addEntity(Entity1 e) {
 		entity1List.add(e);
 	}
